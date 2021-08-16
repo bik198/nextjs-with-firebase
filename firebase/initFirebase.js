@@ -7,13 +7,13 @@ import 'firebase/analytics'
 import 'firebase/performance'
 
 const clientCredentials = {
-    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-    authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-    databaseURL: process.env.NEXT_PUBLIC_FIREBASE_DATABASE_URL,
-    projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-    storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+    apiKey: "AIzaSyCqvAQzFpuVe6aZJ4JymVW8zSlqqvI7Ix8",
+    authDomain: "next-firebase-ionic.firebaseapp.com",
+    projectId: "next-firebase-ionic",
+    storageBucket: "next-firebase-ionic.appspot.com",
+    messagingSenderId: "304085977413",
+    appId: "1:304085977413:web:c85acf04418d857185962c",
+    measurementId: "G-F4ZGDLEFVT"
 }
 
 export default function initFirebase() {
